@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+}
+
+.index_page {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 1.5em;
+	background-color: lightgray;
+	padding: 8px 8px 8px 8px;
+}
+
+.header {
+	grid-column: 1 / 4;
+	background-color: white;
+	color: black;
+	padding: 2em 0 2em 0;
+	border: darkblue solid 0.25em;
+}
+
+a {
+	text-decoration: none;
+}
+
+#project_title {
+	margin: 0em 0em 1em 0.5em;
+	font-size: 2.25em;
+	font-family: Georgia;
+}
+
+#project_statement {
+	margin: 0 0 0em .75em;
+	font-family: Courier New;
+	font-size: 1.75em;
+}
