@@ -2,10 +2,10 @@ body {
 	margin: 0;
 }
 
-.index_page {
+.dfr_page {
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-gap: 0.5em;
+	grid-gap: 1em;
 	background-color: lightgray;
 	padding: 8px 8px 8px 8px;
 }
@@ -94,8 +94,19 @@ h1 {
 	text-indent: 40px;
 }
 
-img {
+.test_case {
 	margin-bottom: 2em;
+}
+
+#test_case_example {
+	width: 800px;
+	height: 200px;
+	margin-bottom: 0;
+}
+
+.download_link {
+	font-size: 1.25em;
+	font-style: italic;
 }
 
 #results {
